@@ -28,9 +28,9 @@ The initial model comprises three layers with 80, 30, and 1 neuron(s), respectiv
 
 Therefore, a second attempt was made by increasing the number of neurons. This revised model consists of three layers with 300, 300, and 1 neuron(s) respectively, maintaining the same activation functions and number of epochs as the original model. This adjustment resulted in an accuracy of 72.51%, still falling short of the target predictive accuracy of over 75%.
 
-![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%202%20(Codes).png)
-![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%202%20(Neurons).png)
-![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%202%20(Accuracy).png)
+![alt text](https://github.com/Anton0Lee/Deep-learning-challenge/blob/main/Images/Attempt%202%20(Codes).png)
+![alt text](https://github.com/Anton0Lee/Deep-learning-challenge/blob/main/Images/Attempt%202%20(Neurons).png)
+![alt text](https://github.com/Anton0Lee/Deep-learning-challenge/blob/main/Images/Attempt%202%20(Accuracy).png)
 
 3rd-10th Attempt:
 
@@ -40,9 +40,9 @@ The Highest Accuracy Attempt (10th Attempt):
 
 The highest accuracy was achieved on the 10th attempt. This model consists of four layers with 20, 10, 10, and 1 neuron(s) respectively. The first three layers use the "relu" activation function, while the output layer uses "sigmoid." Trained over 100 epochs, this model achieved an accuracy of 72.71%, still below the target predictive accuracy of over 75%.
 
-![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%2010%20(Codes).png)
-![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%2010%20(Neurons).png)
-![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%2010%20(Accuracy).png)
+![alt text](https://github.com/Anton0Lee/Deep-learning-challenge/blob/main/Images/Attempt%2010%20(Codes).png)
+![alt text](https://github.com/Anton0Lee/Deep-learning-challenge/blob/main/Images/Attempt%2010%20(Neurons).png)
+![alt text](https://github.com/Anton0Lee/Deep-learning-challenge/blob/main/Images/Attempt%2010%20(Accuracy).png)
 
 
 <br/>
