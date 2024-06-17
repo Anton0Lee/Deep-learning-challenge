@@ -1,8 +1,7 @@
 # Neural Network Model Analysis Report
 
 ## Overview of the Analysis
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. By utilizing machine learning and neural networks along with features from a given dataset, we aim to construct a binary classifier that predicts the success or failure of applicants post-funding.  
-
+The nonprofit foundation Alphabet Soup seeks a tool to identify funding applicants with the highest potential for success. Using machine learning and neural networks, along with features from a provided dataset, we plan to develop a binary classifier that predicts the post-funding success or failure of applicants.
 <br/>
 
 ## Results
@@ -19,15 +18,15 @@ The variables removed from the input data are "EIN" and "NAME" because they are 
 ### Compiling, Training, and Evaluating the Model
 1st Attempt:
 
-Initially, the model consists of three layers with 80, 30, and 1 neurons respectively. The activation function for the first two layers is "relu", while the activation function for the output layer is "sigmoid". The number of epochs is 100. This model produced an accuracy of 72.50%, which did not achieve a target predictive accuracy higher than 75%.  
+The initial model comprises three layers with 80, 30, and 1 neuron(s), respectively. The first two layers use the "relu" activation function, while the output layer uses "sigmoid." Trained over 100 epochs, this model achieved an accuracy of 72.50%, falling short of the target predictive accuracy of over 75%.
 
-![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%201%20(Codes).png)
-![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%201%20(Neurons).png)
-![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%201%20(Accuracy).png)
+![alt text](https://github.com/Anton0Lee/Deep-learning-challenge/blob/main/Images/Attempt%201%20(Codes).png)
+![alt text](https://github.com/Anton0Lee/Deep-learning-challenge/blob/main/Images/Attempt%201%20(Neurons).png)
+![alt text](https://github.com/Anton0Lee/Deep-learning-challenge/blob/main/Images/Attempt%201%20(Accuracy).png)
 
 2nd Attempt:
 
-Therefore, 2nd attempt was done by increasing the number of neurons. This model consists of three layers with 300, 300, and 1 neurons respectively. The activation functions and number of epochs remain the same as the original model. This model produced an accuracy of 72.51%, which did not achieve a target predictive accuracy higher than 75%.
+Therefore, a second attempt was made by increasing the number of neurons. This revised model consists of three layers with 300, 300, and 1 neuron(s) respectively, maintaining the same activation functions and number of epochs as the original model. This adjustment resulted in an accuracy of 72.51%, still falling short of the target predictive accuracy of over 75%.
 
 ![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%202%20(Codes).png)
 ![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%202%20(Neurons).png)
@@ -35,12 +34,11 @@ Therefore, 2nd attempt was done by increasing the number of neurons. This model 
 
 3rd-10th Attempt:
 
-After that, more attempts were done by changing the number of neurons, layers, epochs, activation functions. All of the attempts were not able to achieve a target predictive accuracy higher than 75%. The predictive accuracy produced are ranging from 72.36% to 72.71%. 
-
+Subsequent attempts involved altering the number of neurons, layers, epochs, and activation functions. Despite these adjustments, none of the models achieved the target predictive accuracy of over 75%. The resulting accuracies ranged from 72.36% to 72.71%.
 
 The Highest Accuracy Attempt (10th Attempt):
 
-The highest accuracy attempt is the 10th attempt. This model consists of four layers with 20, 10, 10 and 1 neurons respectively. The activation function for the first three layers is "relu", while the activation function for the output layer is "sigmoid". The number of epochs is 100. This model produced an accuracy of 72.71%, which did not achieve a target predictive accuracy higher than 75%.    
+The highest accuracy was achieved on the 10th attempt. This model consists of four layers with 20, 10, 10, and 1 neuron(s) respectively. The first three layers use the "relu" activation function, while the output layer uses "sigmoid." Trained over 100 epochs, this model achieved an accuracy of 72.71%, still below the target predictive accuracy of over 75%.
 
 ![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%2010%20(Codes).png)
 ![alt text](https://github.com/Roy-Ip/deep-learning-challenge/blob/main/Images/Attempt%2010%20(Neurons).png)
@@ -50,7 +48,7 @@ The highest accuracy attempt is the 10th attempt. This model consists of four la
 <br/>
 
 ## Summary
-After 10 times of attempts, the deep learning model was not able to achieve a target predictive accuracy higher than 75%. The accuracy of each model is included in the name of the file for easier comparison. Although it was not able to achieve 75% accuracy, it produced a very close accuracy percentage (ie. 72.71%) after 10 attempts. It is still a useful and realiable model for Alphabet Soup to predict whether applicants will be successful if funded by Alphabet Soup. 
+After ten attempts, the deep learning model did not reach the target predictive accuracy of over 75%. The accuracy of each model is included in the file names for easier comparison. Despite falling short of the target, the model achieved a close accuracy of 72.71% on the tenth attempt. This makes it a useful and reliable tool for Alphabet Soup to predict the success of applicants if funded.
 
-To further improve the accuracy of the model, an alternative method, such as using "KerasTuner" function, can be used. It may be a better way to achieve a higher percentage as KerasTuner automates the process of finding the best hyperparameters by performing a search over a defined space of possible values. It helps in achieving better model accuracy, faster convergence, and reduced overfitting.
+To further improve the model's accuracy, an alternative method such as using the "KerasTuner" function can be considered. KerasTuner automates the process of finding the best hyperparameters by searching over a defined space of possible values, potentially leading to better model accuracy, faster convergence, and reduced overfitting.
 
